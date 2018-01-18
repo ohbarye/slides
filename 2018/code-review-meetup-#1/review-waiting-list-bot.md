@@ -9,7 +9,7 @@ template: invert -->
 
 ###### Pull Requests を Slack に通知する bot を活用する
 
-###### by Masato Ohba ( [@ohbarye](https://github.com/ohbarye) )
+###### by [@ohbarye](https://github.com/ohbarye)
 
 ---
 
@@ -31,7 +31,7 @@ template: invert -->
 - [レビュー待ちの Pull Request 一覧を Slack に定期的に通知する -valid,invalid-](http://ohbarye.hatenablog.jp/entry/2017/08/26/230421)
 
 - [Show pull requests awaiting review on Slack periodically -dev.to-](https://dev.to/ohbarye/show-pull-requests-awaiting-review-on-slack-periodically-23h)
-	- tip: 英語で記事を書くと star 増える
+	- tip: 英語で記事を書くと…
 
 ---
 
@@ -148,6 +148,9 @@ $ docker run \
 	- だからこそ気持ちよくやりたい
 - 可視化したりリズムを作るのに review-bot はなかなか役立つ
 - チームに合わせた使い方をしてみては
+
+
+- この資料は [GitHub](https://github.com/ohbarye/slides/blob/master/2018/code-review-meetup-%231/review-waiting-list-bot.md) で公開しています
 
 ---
 
