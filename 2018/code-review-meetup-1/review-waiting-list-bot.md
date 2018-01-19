@@ -162,7 +162,7 @@ $ docker run \
 	- チームに合わせた使い方をしてみては
 
 
-- この資料は [GitHub](https://github.com/ohbarye/slides/blob/master/2018/code-review-meetup-%231/review-waiting-list-bot.md) で公開しています
+- この資料は [GitHub](https://github.com/ohbarye/slides/blob/master/2018/code-review-meetup-1) で公開しています
 - その他：[レビュー会](http://ohbarye.hatenablog.jp/entry/2017/07/04/211126)もおすすめ
 
 ---
