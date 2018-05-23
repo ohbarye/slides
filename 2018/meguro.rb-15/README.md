@@ -23,7 +23,7 @@ template: invert -->
 
 ---
 
-#### Content
+# Content
 
 0. Webpacker とは？
 1. なぜレベルアップする必要があったのか
@@ -66,10 +66,10 @@ template: invert -->
 
 ## ビジネスとして
 
-- 当時担当の web アプリは決済サイト(＋登録導線)
+- 当時担当の web アプリは決済サイト (＋登録導線)
 	- 決済は堅牢であることが最も大事
 	- 一方、このサイト内の登録導線は CVR に直結
-- このサイトのフロントエンドは Rails おなじみのスタック
+- フロントエンドは Rails おなじみのスタック
 	- jQuery + CoffeeScript
 - 拡張が苦しく、複雑な仕様やA/Bテストに対応するには作り直したほうが早い
 
@@ -142,7 +142,8 @@ template: invert -->
 
 - ハッシュ付きファイル名の自動生成 <!--キャッシュ対策-->
 	- Sprockets と同じ運用ができる
-- rake assets:precompile にフックしてビルド (webpacker:compile) が行われる
+- `rake assets:precompile` にフックしてビルド (`webpacker:compile`) が行われる
+	- Sprockets を使っていない場合は `assets:precompile` の alias になる
 	- 既存のビルドシステムやアセット管理が活きる
 
 ---
@@ -188,11 +189,24 @@ template: invert -->
 
 ---
 
+## Webpacker 関連 良記事
+
+<!-- より詳しく知りたい方はこちら -->
+
+- Introducing Webpacker
+	https://medium.com/statuscode/introducing-webpacker-7136d66cddfb
+- How we switched from Sprockets to Webpack
+	https://rossta.net/blog/from-sprockets-to-webpack.html
+- 【保存版】Rails 5 Webpacker公式ドキュメントの歩き方+追加情報
+	https://techracho.bpsinc.jp/hachi8833/2018_05_17/56568
+
+---
+
 ## 今後
 
 - 卒業宣言「Webpacker は補助輪」
 - ![tweet3_momentum 50%](./tweet3_momentum.png) 
-- Webpacker eject 的なコマンドがほしい <!-- create-react-app -->
+- `webpacker:eject` 的なコマンドがほしい <!-- create-react-app -->
 <!-- - [euxn23/webpacker-pure-config](https://www.slideshare.net/euxn/20180522-can-i-go-along-with-webpacker-frontendonrails) という選択肢も? リブセンス社-->
 - sass も webpack で管理したい
 
