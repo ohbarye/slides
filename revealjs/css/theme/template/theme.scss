@@ -314,3 +314,11 @@ body {
 	}
 
 
+/*********************************************
+ * PRINT BACKGROUND
+ *********************************************/
+@media print {
+	.backgrounds {
+		background-color: $backgroundColor;
+	}
+}
