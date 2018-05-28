@@ -17,7 +17,7 @@ template: invert -->
 
 # 本日の内容について
 
-# ![tweet4_level_up](./tweet4_level_up.png) 
+# ![tweet4_level_up](./tweet4_level_up.png)
 
 <!-- このたびレベルが上がりました -->
 
@@ -49,7 +49,7 @@ template: invert -->
 
 - => 本当に良いツールか？という問には後半で振り返る<!--この時点でフラグ立ってるけど-->
 
---- 
+---
 
 # 1. なぜレベルアップする必要があったのか
 
@@ -59,7 +59,7 @@ template: invert -->
 
 - React, TypeScript が社内で標準になる流れ
 - [React Native 人材になっていく同僚たち](http://quipper.hatenablog.com/entry/2017/12/05/114014)
-- ![tweet1_complex 60%](./tweet1_complex.png) 
+- ![tweet1_complex 60%](./tweet1_complex.png)
 
 <!-- Engineering Manager として部下のフロントエンドスキルを評価できないのはまずい -->
 <!-- ある種の後悔は取り戻すことができる 『エアマスター』 -->
@@ -84,7 +84,7 @@ template: invert -->
 # 2. Railsフロントエンドの
 # モダン化
 
---- 
+---
 
 ## step1: Introduce Webpacker
 
@@ -108,7 +108,7 @@ template: invert -->
 ## step2: Code migration
 
 - できる人ならこうした設定なども一瞬で終わるかもしれないが、それでは自分の学びにならない
-- 一方、足回りを独力でちまちま進めているといつまでもマージされない、リリースされない	
+- 一方、足回りを独力でちまちま進めているといつまでもマージされない、リリースされない
 	- リリースされないコードに価値はない...
 - 緩やかな移行を実現できたので、**スコープを絞りながら学ぶことが出来た**
 
@@ -162,7 +162,7 @@ template: invert -->
 	- Ruby 経由で webpack を実行する問題 <!-- e.g. 環境変数の受け渡し -->
 - webpack v4 が出ても Webpacker が対応するまでアップデートできない
 	=> 既視感… asset pipeline と同じ話では…？<!--gem が更新されないと npm library をアップデートできない-->
-    
+
 - 余計なレイヤーが1つ増えたとも言える
 
 ---
@@ -172,7 +172,7 @@ template: invert -->
 - [公式レポジトリに届いたお便り](https://github.com/rails/webpacker/issues/1371)への回答
 - 開発者の幸福にフォーカスしている
 
-	> But the most important benefit that we often overlook is our happiness and experience as programmers. If things are integrated and part of one workflow, then it leads to better and happy work. I guess that's what been the mantra of Rails stack - to provide integrated systems that work together. 
+	> But the most important benefit that we often overlook is our happiness and experience as programmers. If things are integrated and part of one workflow, then it leads to better and happy work. I guess that's what been the mantra of Rails stack - to provide integrated systems that work together.
 
 ---
 
@@ -212,7 +212,7 @@ template: invert -->
 ## 今後
 
 - 卒業宣言「Webpacker は補助輪」
-- ![tweet3_momentum 50%](./tweet3_momentum.png) 
+- ![tweet3_momentum 50%](./tweet3_momentum.png)
 - `webpacker:eject` 的なコマンドがほしい <!-- create-react-app -->
 <!-- - [euxn23/webpacker-pure-config](https://www.slideshare.net/euxn/20180522-can-i-go-along-with-webpacker-frontendonrails) という選択肢も? リブセンス社-->
 - sass も webpack で管理したい
@@ -224,7 +224,7 @@ template: invert -->
 
 - <!--フロントエンド周回遅れRailsエンジニアでも-->Webpackerを用いたRailsフロントエンドモダン化を通じてレベルアップできた
 - レベルアップと同時にビジネスにも貢献
-	- **CVR 16.0->18.6% (局所的には 36.5->43.7%)**
+	- **CVR 2.6% up (局所的には 7.2% up)**
 - 開発を通じて周辺エコシステムに興味・関心++
 	- GitHub trending で JS, TS もウォッチするように
 	- node.js, yarn, DefinitelyTyped, Webpacker, formik etc. に contribute できた
@@ -238,7 +238,7 @@ template: invert -->
 
 <!-- 時間があれば -->
 
-![me 50%](./me.jpeg) 
+![me 50%](./me.jpeg)
 
 @ohbarye : Web Developer / Engineering Manager
 
