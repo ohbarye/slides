@@ -4,6 +4,7 @@
 
 1. Opal
 2. P5.js
+3. Small magic 🌚
 
 ---
 
@@ -48,6 +49,50 @@ JavaScript to a picture with canvas
 ***
 
 <image src="./p5sample.png" width="100%">
+
+---
+
+## Small Magic
+
+***
+
+- P5.js defines its properties and functions in window
+- Use %x{} to call window.someMethod from Ruby
+- Use method_missing to handle all method calls
+
+http://tkitao.hatenablog.com/entry/2015/12/19/192523
+
+>>>
+
+<image src="./p5_module.png" width="100%">
+
+>>>
+
+<image src="./call_p5.png" width="100%">
+
+>>>
+
+<image src="./strings.png" width="100%">
+
+---
+
+## What is the very first step?
+
+***
+
+Try it on https://codepen.io/ohbarye/pen/XYjGXp
+
+<image src="./codepen.png" width="100%">
+
+---
+
+## Code Reading
+
+***
+
+(Once time permits)
+
+https://github.com/ohbarye/ruby-processing-examples
 
 ---
 
