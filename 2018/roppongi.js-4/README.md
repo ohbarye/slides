@@ -1,13 +1,3 @@
-## How to find "Good First Issues"
-
-***
-
-Quipper Limited
-
-[@ohbarye](https://github.com/ohbarye) at Roppongi.js#4
-
----
-
 ## If you:
 
 - want to contribute OSS
@@ -35,12 +25,17 @@ First of all, see the "good first issue" [list](https://docs.google.com/spreadsh
 
 >>>
 
-## What is "good first issue"?
+## BTW, what is "good first issue"?
+
+***
+
+<image src="./list.png" width="100%">
+
+>>>
 
 > Apply the `help wanted` and `good first issue` labels to issues in your repository to highlight opportunities for people to contribute to your project.
 
 https://help.github.com/articles/helping-new-contributors-find-your-project-with-labels/
-
 ---
 
 ## How to make the list
@@ -83,6 +78,14 @@ ref: [GitHub help](https://help.github.com/articles/searching-repositories/#sear
 <image src="./query3.png" width="100%">
 
 ref: [GitHub help](https://help.github.com/articles/searching-repositories/#search-by-number-of-stars)
+
+>>>
+
+### Response
+
+***
+
+<image src="./response.png" width="100%">
 
 ---
 
