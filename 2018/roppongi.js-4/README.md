@@ -29,7 +29,7 @@ First of all, see the "good first issue" [list](https://docs.google.com/spreadsh
 
 ***
 
-<image src="./list.png" width="100%">
+<image src="./labels.png" width="40%">
 
 >>>
 
