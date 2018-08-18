@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../revealjs/css/reveal.css">
+    <link rel="stylesheet" href="../../revealjs/css/theme/sapuri.css">
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? '../../revealjs/css/print/pdf.css' : '../../revealjs/css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section data-markdown="" data-separator="---$" data-separator-vertical=">>>$" data-background="./bg_wave.gif">
+                <script type="text/template">
+                    ## How to find "Good First Issues"
+                    ### part II
+
+                    Quipper Limited
+
+                    [@ohbarye](https://github.com/ohbarye) at Roppongi.js#5
+                </script>
+            </section>
+            <section data-markdown="./README.md" data-separator="---$" data-separator-vertical=">>>$"></section>
+        </div>
+    </div>
+    <script src="../../revealjs/lib/js/head.min.js"></script>
+    <script src="../../revealjs/js/reveal.js"></script>
+    <script>
+      Reveal.initialize({
+        dependencies: [
+          { src: '../../revealjs/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '../../revealjs/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '../../revealjs/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+        ]
+      });
+    </script>
+</body>
+</html>
