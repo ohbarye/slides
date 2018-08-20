@@ -1,13 +1,3 @@
-## Agenda
-
-***
-
-1. Story so far (1 min)
-2. Current status (2 min)
-3. What's next? (2 min)
-
----
-
 ## If you:
 
 - want to contribute OSS
@@ -18,7 +8,32 @@ This talk would be helpful to you.
 
 ---
 
+## Agenda
+
+***
+
+1. Story so far
+2. Current status
+3. What's next?
+
+---
+
 # Story so far 📝
+
+---
+
+## Current problem is...
+
+---
+## Contribution Accessibility
+
+<image src="./before.png" width="100%">
+
+---
+
+## Ideal world
+
+<image src="./after.png" width="100%">
 
 ---
 
@@ -26,21 +41,10 @@ This talk would be helpful to you.
 
 ***
 
-I've shared the followings at the previous Roppongi.js.
+At the previous Roppongi.js.
+I've shared a simple script to fetch good first issues from GitHub.
 
-- I was looking for a better way to find out OSS/issues that I can contribute.
-- "good first issue" label on GitHub is a nice clue.
-- I created a simple script to fetch good first issues with GitHub GraphQL API v4, and shared a list of such issues.
-
->>>
-
-## Response
-
-***
-
-<image src="./previous_slide.png" width="100%">
-
->>>
+---
 
 ## what is "good first issue"?
 
@@ -48,13 +52,13 @@ I've shared the followings at the previous Roppongi.js.
 
 <image src="./labels.png" width="40%">
 
->>>
+---
 
 > Apply the `help wanted` and `good first issue` labels to issues in your repository to highlight opportunities for people to contribute to your project.
 
 https://help.github.com/articles/helping-new-contributors-find-your-project-with-labels/
 
->>>
+---
 
 ## Previous output
 
@@ -67,7 +71,15 @@ But not cool. I felt I should implement GUI for better usability.
 
 ---
 
-# Current Status 🐶
+## Response
+
+***
+
+<image src="./previous_slide.png" width="100%">
+
+---
+
+# Current status 🐶
 
 ---
 
