@@ -22,7 +22,7 @@ This talk would be helpful to you.
 
 ---
 
-## Current problem is...
+## Problem to solve is...
 
 ---
 ## Contribution Accessibility
@@ -42,7 +42,7 @@ This talk would be helpful to you.
 ***
 
 At the previous Roppongi.js.
-I've shared a simple script to fetch good first issues from GitHub.
+I've shared a simple script to fetch "good first issues" from GitHub.
 
 ---
 
@@ -54,7 +54,7 @@ I've shared a simple script to fetch good first issues from GitHub.
 
 ---
 
-> Apply the `help wanted` and `good first issue` labels to issues in your repository to highlight opportunities for people to contribute to your project.
+> Apply the "help wanted" and "good first issue" labels to issues in your repository to highlight opportunities for people to contribute to your project.
 
 https://help.github.com/articles/helping-new-contributors-find-your-project-with-labels/
 
@@ -107,9 +107,15 @@ But not cool. I felt I should implement GUI for better usability.
 - Implemented frontend and backend
   - React, Material UI, TypeScript
   - Node.js, Express, GraphQL
-- Deployed on Netlify
-  - Integrate Netlify to deploy automagically
+
+---
+
+## monorepo
+
 - Use Docker Compose on development
+- Deployed to Heroku and Netlify respectively
+- I wrote articles on how to deploy sub-directory
+  - https://ohbarye.hatenablog.jp/archive/category/monorepo
 
 ---
 
