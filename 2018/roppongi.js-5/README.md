@@ -128,7 +128,7 @@ See:
 
 ---
 
-## Current problems
+## Current issues
 
 ***
 
